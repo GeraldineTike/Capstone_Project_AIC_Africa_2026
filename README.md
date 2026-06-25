@@ -77,13 +77,6 @@ Classification reports (precision, recall, F1-score)
 
 Model comparison and selection
 
-📈 Results
-Model	Accuracy	Recall (Churn)	Precision (Churn)	F1-Score (Churn)
-Logistic Regression	51.23%	48.28%	20.16%	28.44%
-Random Forest	79.77%	0.00%	0.00%	0.00%
-⚠️ Current Issue
-The Random Forest model is predicting "no churn" for all customers (0% recall). This is a class imbalance issue that needs to be addressed using SMOTE or other balancing techniques.
-
 🛠️ Technologies Used
 Python 3.8+
 
@@ -112,20 +105,11 @@ bash
 jupyter notebook "TikedzaniGeraldine_Vele_Capstone_2026.ipynb"
 📂 Repository Structure
 text
-├── TikedzaniGeraldine_Vele_Capstone_2026.ipynb  # Main notebook
+├── Tikedzani_Vele_Capstone_2026.ipynb  # Main notebook
 ├── telecom_demographics_nigeria.csv              # Demographics dataset
 ├── telecom_usage.csv                             # Usage dataset
 └── README.md                                     # This file
-🔬 Future Improvements
-Handle Class Imbalance: Use SMOTE or other oversampling techniques
 
-Feature Engineering: Extract tenure from registration date
-
-Hyperparameter Tuning: Optimize Random Forest parameters
-
-Model Selection: Try XGBoost or LightGBM
-
-Threshold Tuning: Adjust classification threshold to improve recall
 
 👩‍💻 Author
 Tikedzani Geraldine Vele
